@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Todo List</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="container">
+      <h1>Todo List</h1>
+      <form>
+        <input type="text" placeholder="Add a new todo...">
+        <button type="submit">Add</button>
+      </form>
+      <ul class="todo-list">
+        <li>
+          <input type="checkbox">
+          <span class="todo-text">Buy groceries</span>
+          <button class="delete-btn">Delete</button>
+        </li>
+        <li>
+          <input type="checkbox">
+          <span class="todo-text">Pay bills</span>
+          <button class="delete-btn">Delete</button>
+        </li>
+        <!-- more todo items here -->
+      </ul>
+      <div class="todo-count">
+        <span class="total-count">2</span> items left
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
